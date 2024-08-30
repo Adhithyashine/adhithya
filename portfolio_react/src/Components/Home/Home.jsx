@@ -13,13 +13,16 @@ const Home = () => {
         <p className="text-sm md:text-2xl tracking-tight">
           a passionate and aspiring full-stack developer specializing in the
           MERN stack. .
-        </p>
-        <button className=" mt-5 md:md-10 text-white py02 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
+        </p>        
+        <button
+          className="mt-5 md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]"
+          onClick={() => (window.location.href = "#Footer")} 
+        >
           Contact Me
         </button>
       </div>
       <div>
-        <img className="2/6" src={avatarImg} alt="" />
+        <img className="w-full max-w-xs mx-auto md:max-w-sm" src={avatarImg} alt="developer avatar" />
       </div>
     </div>
   );

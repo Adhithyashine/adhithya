@@ -1,6 +1,12 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import { FaCss3, FaReact, FaHtml5, FaJs,FaGoogle  } from "react-icons/fa";
+import {
+  FaCss3,
+  FaReact,
+  FaHtml5,
+  FaJs,
+  FaBuilding,
+} from "react-icons/fa";
 import { SiTailwindcss, SiMongodb, SiExpress } from "react-icons/si";
 
 const Experience = () => {
@@ -30,43 +36,52 @@ const Experience = () => {
           <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
             <SiTailwindcss color="#38b2ac" size={50} />
           </span>
-          
-         
         </div>
         <div>
-        <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
-            <FaGoogle color="#4285f4" size={50}/>
+          <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
+            <FaBuilding color="#4285f4" size={50} />
             <span className="text-white">
-                <h2 className="leading-tight">Software Engineer, ZimulateConsultech</h2>
-                <p className="text-sm leading-tight font-thin"> sept 2023- present</p>
-                <ul className="text-sm p-2">
-                    <li>Worked as software developer</li>
-                    <li>web developer</li>
-                </ul>
+              <h2 className="leading-tight">
+                Web Developer, ZimulateConsultech
+              </h2>
+              <p className="text-sm leading-tight font-thin">
+                sept 2023- present
+              </p>
+              <ul className="text-sm p-2">
+                <li>Worked as Web Developer in Zimulateconsultech.LLP</li>
+                <li>Built and deployed the entire website.</li>
+              </ul>
             </span>
-        </div>
-        <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
-            <FaGoogle color="#4285f4" size={50}/>
+          </div>
+          <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
+            <FaBuilding color="#4285f4" size={50} />
             <span className="text-white">
-                <h2 className="leading-tight">Software Engineer, ZimulateConsultech</h2>
-                <p className="text-sm leading-tight font-thin"> sept 2023- present</p>
-                <ul className="text-sm p-2">
-                    <li>Worked as software developer</li>
-                    <li>web developer</li>
-                </ul>
+              <h2 className="leading-tight"> Web Developer, IEDC SNGCE</h2>
+              <p className="text-sm leading-tight font-thin">
+                sept 2022- july 2024
+              </p>
+              <ul className="text-sm p-2">
+                <li>Worked as web master in IEDC SNGCE.</li>
+                <li>Built and deployed wesite.</li>
+                <li>Lead and taught interns about web development.</li>
+              </ul>
             </span>
-        </div>
-        <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
-            <FaGoogle color="#4285f4" size={50}/>
+          </div>
+          <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
+            <FaBuilding color="#4285f4" size={50} />
             <span className="text-white">
-                <h2 className="leading-tight">Software Engineer, ZimulateConsultech</h2>
-                <p className="text-sm leading-tight font-thin"> sept 2023- present</p>
-                <ul className="text-sm p-2">
-                    <li>Worked as software developer</li>
-                    <li>web developer</li>
-                </ul>
+              <h2 className="leading-tight">
+               Web Developer, FuturaLabs
+              </h2>
+              <p className="text-sm leading-tight font-thin">
+                May 2023
+              </p>
+              <ul className="text-sm p-2">
+                <li>Worked as an Intern.</li>
+                <li>Built web apps using MERN stack.</li>
+              </ul>
             </span>
-        </div>
+          </div>
         </div>
       </div>
     </div>

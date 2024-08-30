@@ -1,6 +1,9 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import ProjectCard from "./ProjectCard";
+import zim from '.././../assets/zim.png';
+import iedc from '../../assets/iedc.png';
+import adhi from '../../assets/adhi.png';
 
 const Projects = () => {
   return (
@@ -9,16 +12,24 @@ const Projects = () => {
       <div className="py-12 px-8 flex flex-wrap gap-5">
         <ProjectCard
           title="Company Website"
-          main="This is a website created in Html ,CSS and Javascript."
+          main="This is a website created in HTML ,CSS and Javascript."
+          bannerImg={zim}
+          demoUrl='https://www.zimulateconsultech.in'
+          sourceCode='https://github.com/Adhithyashine/Zimulate-Consultech'
         />
         <ProjectCard
-          title="Netflix Clone"
-          main="this is a blogging website created in nextjs and used some compontnt library"
+          title="Community Website"
+          main="This is a  website created in HTML, CSS and Javascript."
+          bannerImg={iedc}
+          demoUrl="https://www.iedcsngce.com"
+          sourceCode='https://github.com/Adhithyashine/IEDC-SNGCE'
         />
         <ProjectCard
-          title="Youtube Clone"
-          main="this is a blogging website created in nextjs and used some compontnt library"
-        />
+          title="Portfolio Website"
+          main="This website is created in HTML, CSS, Javascrip, React and Tailwind css."
+          bannerImg={adhi}
+        /> 
+        
       </div>
     </div>
   );
