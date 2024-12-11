@@ -2,7 +2,7 @@
 import React, { useCallback } from "react";
 import { useState, useEffect } from "react";
 const TextChange = () => {
-  const texts = ["Hi, I'm Adhithya Shine", "Hi, I'm Adhithya Shine", "Hi, I'm Adhithya Shine"];
+  const texts = ["Hi, I'm Adhithya", "Hi, I'm Adhithya", "Hi, I'm Adhithya"];
   const [currentText, setCurrentText] = useState("");
   const [endValue, setendValue] = useState(true);
   const [isForward, setIsForward] = useState(true);

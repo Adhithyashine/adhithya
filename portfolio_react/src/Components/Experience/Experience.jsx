@@ -48,8 +48,36 @@ const Experience = () => {
                 sept 2023- present
               </p>
               <ul className="text-sm p-2">
-                <li>Worked as Web Developer in Zimulateconsultech.LLP</li>
-                <li>Built and deployed the entire website.</li>
+                <li>Built and deployed the landing page website for Zimulate Consultech LLP.</li>
+                <li>Handled the complete development and deployment process.</li>
+              </ul>
+            </span>
+          </div>
+          <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
+            <FaBuilding color="#4285f4" size={50} />
+            <span className="text-white">
+              <h2 className="leading-tight"> Full Stack Developer, DND DESIGNS UK </h2>
+              <p className="text-sm leading-tight font-thin">
+                july 2024- Nov 2024
+              </p>
+              <ul className="text-sm p-2">
+                <li>Worked as freelance developer for DND DESIGNS, UK.</li>
+                <li>Built and deployed full stack Web app.</li>
+                <li>Integrated payment gateways to the website.</li>
+              </ul>
+            </span>
+          </div>
+          <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
+            <FaBuilding color="#4285f4" size={50} />
+            <span className="text-white">
+              <h2 className="leading-tight"> MERN Developer, Techmindz </h2>
+              <p className="text-sm leading-tight font-thin">
+                july 2024- Dec 2024
+              </p>
+              <ul className="text-sm p-2">
+                <li>Worked as Intern.</li>
+                <li>Built and deployed wesite.</li>
+                <li>Lead and taught interns about web development.</li>
               </ul>
             </span>
           </div>
@@ -77,8 +105,9 @@ const Experience = () => {
                 May 2023
               </p>
               <ul className="text-sm p-2">
-                <li>Worked as an Intern.</li>
+                <li>Gained hands-on experience in full-stack web development.</li>
                 <li>Built web apps using MERN stack.</li>
+                <li>Enhanced technical skills through real-world project implementation and problem-solving.</li>
               </ul>
             </span>
           </div>
