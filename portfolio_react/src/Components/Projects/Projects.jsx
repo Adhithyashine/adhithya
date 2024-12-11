@@ -14,7 +14,7 @@ const Projects = () => {
       <div className="py-12 px-8 flex flex-wrap gap-5">
         <ProjectCard
           title="Company Website"
-          main="This is a landing page website that i created for Zimulate, a tech startup.The language and frameworks used are HTML, CSS, Javascript, React and Tailwind css."
+          main="This is a landing page website that i developed for Zimulate, a tech startup.The language and frameworks used are HTML, CSS, Javascript, React and Tailwind css."
           bannerImg={zim}
           demoUrl='https://www.zimulateconsultech.in'
           sourceCode='https://github.com/Adhithyashine/zimulate-react'
@@ -42,7 +42,7 @@ const Projects = () => {
         /> 
          <ProjectCard
           title="Online Clothing Brand"
-          main="This a fullstack online Clothing app built with MERN Stack.This is one of my Freelace projects."
+          main="This is a fullstack online Clothing e-commerce app built with MERN Stack.This is one of my Freelace projects."
           bannerImg={ecom1}
           demoUrl="https://dnddesigns.uk"
           sourceCode="https://github.com/Adhithyashine/"
